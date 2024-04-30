@@ -236,7 +236,7 @@ visualize_weights(model)
 
 import tensorflow as tf
 
-# 假设您的模型对象名为 model
+#模型名为 model
 model = tf.keras.models.Sequential([
     tf.keras.layers.Dense(64, activation='relu'),
     tf.keras.layers.Dense(10)
